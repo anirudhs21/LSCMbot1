@@ -50,7 +50,7 @@ const RightSection = () => {
         {
             "role": "user",
             "parts": [{
-                "text": "Special Dialogue 3 : Any prompt that mentions "Vendor Performance" word : ' There are a total of 15 vendors supplying 992 products ranging in 5 categories. Vendors 3,5,10 and 12 need serious improvement in maintaining the compliance status. Vendors 1,2,13,4 and 14 have shown exceptional work and have maintained stable compliance standards.' "
+                "text": "Special Dialogue 3 : Any prompt that mentions 'Vendor Performance' word : ' There are a total of 15 vendors supplying 992 products ranging in 5 categories. Vendors 3,5,10 and 12 need serious improvement in maintaining the compliance status. Vendors 1,2,13,4 and 14 have shown exceptional work and have maintained stable compliance standards.' "
             }]
         },
         {
@@ -62,7 +62,7 @@ const RightSection = () => {
         {
             "role": "user",
             "parts": [{
-                "text": "Special Dialogue 4 : Any prompt that mentions Delivery Delay and Risk Analysis : ' Here is the summary of Analysis of deliveries by vendors: 1) The average delivery time (in days) dropped from 5.5 days in January to 5.2 in March. The delivery delays in average peaked from May (5.27 days) to 5.92 days in July. The average delay in deliveries maintained a steady decline till the end of the year' "
+                "text": "Special Dialogue 4 : Any prompt that mentions 'Delivery Delay and Risk Analysis' : ' Here is the summary of Analysis of deliveries by vendors: 1) The average delivery time (in days) dropped from 5.5 days in January to 5.2 in March. The delivery delays in average peaked from May (5.27 days) to 5.92 days in July. The average delay in deliveries maintained a steady decline till the end of the year' "
             }]
         },
         {
