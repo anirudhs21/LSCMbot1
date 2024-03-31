@@ -62,7 +62,7 @@ const RightSection = () => {
         {
             "role": "user",
             "parts": [{
-                "text": "Special Dialogue 4 : Any prompt that mentions 'Delivery Delay and Risk Analysis' : ' Here is the summary of Analysis of deliveries by vendors: 1) The average delivery time (in days) dropped from 5.5 days in January to 5.2 in March. The delivery delays in average peaked from May (5.27 days) to 5.92 days in July. The average delay in deliveries maintained a steady decline till the end of the year' "
+                "text": "Special Dialogue 4 : Any prompt that mentions 'Delivery Delay and Risk Analysis' word : ' Here is the summary of Analysis of deliveries by vendors: 1) The average delivery time (in days) dropped from 5.5 days in January to 5.2 in March. The delivery delays in average peaked from May (5.27 days) to 5.92 days in July. The average delay in deliveries maintained a steady decline till the end of the year' "
             }]
         },
         {
