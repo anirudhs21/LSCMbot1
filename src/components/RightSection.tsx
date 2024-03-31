@@ -50,7 +50,7 @@ const RightSection = () => {
         {
             "role": "user",
             "parts": [{
-                "text": "Special Dialogue 3 : Any prompt that mentions Vendor Performance : ' There are a total of 15 vendors supplying 992 products ranging in 5 categories. Vendors 3,5,10 and 12 need serious improvement in maintaining the compliance status. Vendors 1,2,13,4 and 14 have shown exceptional work and have maintained stable compliance standards.' "
+                "text": "Special Dialogue 3 : Any prompt that mentions "Vendor Performance" word : ' There are a total of 15 vendors supplying 992 products ranging in 5 categories. Vendors 3,5,10 and 12 need serious improvement in maintaining the compliance status. Vendors 1,2,13,4 and 14 have shown exceptional work and have maintained stable compliance standards.' "
             }]
         },
         {
