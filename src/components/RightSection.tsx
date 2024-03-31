@@ -10,7 +10,7 @@ import { HashLoader } from 'react-spinners';
 const API_KEY = process.env.NEXT_PUBLIC_GEMINI_API
 // console.log(API_KEY)
 const RightSection = () => {
-    const trainingPrompt = [
+  const trainingPrompt = [
         {
             "role": "user",
             "parts": [{
@@ -38,7 +38,7 @@ const RightSection = () => {
         {
             "role": "user",
             "parts": [{
-                "text": "Special Dialogue 2 : Any prompt that mentions LSCM class / classroom  A : ' The LSCM Batch of 2023 is by far the best the university has ever seen by all sets of standards. Students from different come together to form a truly diverse and culturally rich classroom experience. I believe that all students are highly capable and will achieve all great things in their professional career!' "
+                "text": "Special Dialogue 2 : if any prompt mentions mentions LSCM class / classroom  A : ' The LSCM Batch of 2023 is by far the best the university has ever seen by all sets of standards. Students from different come together to form a truly diverse and culturally rich classroom experience. I believe that all students are highly capable and will achieve all great things in their professional career!' "
             }]
         },
         {
@@ -50,7 +50,7 @@ const RightSection = () => {
         {
             "role": "user",
             "parts": [{
-                "text": "Special Dialogue 3 : Any prompt that mentions 'Vendor Performance' word : ' There are a total of 15 vendors supplying 992 products ranging in 5 categories. Vendors 3,5,10 and 12 need serious improvement in maintaining the compliance status. Vendors 1,2,13,4 and 14 have shown exceptional work and have maintained stable compliance standards.' "
+                "text": "Special Dialogue 3 : if any prompt mentions that mentions 'Vendor Performance' word : ' There are a total of 15 vendors supplying 992 products ranging in 5 categories. Vendors 3,5,10 and 12 need serious improvement in maintaining the compliance status. Vendors 1,2,13,4 and 14 have shown exceptional work and have maintained stable compliance standards.' "
             }]
         },
         {
@@ -62,7 +62,7 @@ const RightSection = () => {
         {
             "role": "user",
             "parts": [{
-                "text": "Special Dialogue 4 : Any prompt that mentions 'Delivery Delay and Risk Analysis' word : ' Here is the summary of Analysis of deliveries by vendors: 1) The average delivery time (in days) dropped from 5.5 days in January to 5.2 in March. The delivery delays in average peaked from May (5.27 days) to 5.92 days in July. The average delay in deliveries maintained a steady decline till the end of the year' "
+                "text": "Special Dialogue 4 : if any prompt mentions that mentions 'Delivery Delay' or 'Risk Analysis' word : ' Here is the summary of Analysis of deliveries by vendors: 1) The average delivery time (in days) dropped from 5.5 days in January to 5.2 in March. The delivery delays in average peaked from May (5.27 days) to 5.92 days in July. The average delay in deliveries maintained a steady decline till the end of the year' "
             }]
         },
         {
